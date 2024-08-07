@@ -1,0 +1,62 @@
+html {
+    height: 500vh;
+    background-color:#ffffff;
+    
+  }
+  
+  .container {
+    max-width: 1280px;
+    margin: auto;
+    
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  header {
+    background-color: #3f4a5d;
+    width: 100%;
+    padding: 40px 4%;
+    position: fixed;
+    top: 0dvb;
+    left: 0;
+    transition: 1s;
+    
+  }
+  
+
+  header img {
+    font-size: 30%;
+    color: #ffffff;
+    width: 70px;
+    height: 70px;
+    margin: 0% -100px;
+  }
+  
+  header ul {
+    list-style-type: none;
+    
+  }
+  
+  header ul li {
+    display:inline-block;
+    margin: 0 40px;
+  }
+  header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .contato button {
+    margin: 0% 90px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
