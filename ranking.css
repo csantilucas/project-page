@@ -1,13 +1,15 @@
 html {
     height: 500vh;
     background-color:#ffffff;
-    
+}
+  header{
+    position: absolute;
   }
   
   .container {
     max-width: 1280px;
     margin: auto;
-    
+     
   }
   .flex {
     display: flex;
